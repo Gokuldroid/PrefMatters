@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PerfMatters.iml" filepath="$PROJECT_DIR$/.idea/modules/PerfMatters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PerfMatters_jmh.iml" filepath="$PROJECT_DIR$/.idea/modules/PerfMatters_jmh.iml" group="PerfMatters" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PerfMatters_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PerfMatters_main.iml" group="PerfMatters" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PerfMatters_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PerfMatters_test.iml" group="PerfMatters" />
+    </modules>
+  </component>
+</project>

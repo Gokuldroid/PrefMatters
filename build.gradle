@@ -1,0 +1,28 @@
+plugins {
+    id 'me.champeau.gradle.jmh' version '0.4.5'
+}
+
+group 'PerfMatters'
+version '1.0-SNAPSHOT'
+
+
+apply plugin: 'java'
+apply plugin: 'me.champeau.gradle.jmh'
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
+}
+
+jmh {
+    humanOutputFile = null
+    warmupIterations = 1
+    iterations = 1
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

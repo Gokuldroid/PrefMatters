@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="PerfMatters_jmh" target="1.7" />
+      <module name="PerfMatters_main" target="1.7" />
+      <module name="PerfMatters_test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
